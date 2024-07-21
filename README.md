@@ -28,3 +28,13 @@ Após digitar >*0*<, o programa irá exibir o quantitativo de votos em cada cand
 
 
 Ao final do programa, será exibido os resultados. Logo que apertar qualquer tecla, o programa irá voltar para o *MENU* e todos os candidatos registrados anteriormente serão apagados, sendo necessario cadastrar novamente para realizar outra eleição.
+
+
+
+# ADICIONAR
+Para adicionar um candidato, basta digitar *2* que o usuário será legvado para o cadastro do candidato
+
+![image](https://github.com/user-attachments/assets/7d938500-255a-45a4-a344-64beb570df06)
+
+Para o cadastro, o usuário deverá digitar o nome do candidato e a idade, como mostra acima. Após cadastrar, irá aparecer uma mensagem confirmando o cadastro e perguntando se o usuário deseja ou não adicionar mais candidatos, repetindo o processo até o programa receber um "n" como resposta
+
