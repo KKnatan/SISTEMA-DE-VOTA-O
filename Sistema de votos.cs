@@ -127,6 +127,12 @@ namespace Sistema_de_votos_meior
                         {
                             break;
                         }
+                        if (voto > Pessoas.Count)
+                        {
+                            Console.ForegroundColor = ErrorColor;
+                            Console.WriteLine($"Não existe nenhum candidato com índice >{voto}<");
+                            Console.ForegroundColor = ConsoleColor.Yellow;
+                        }
                         else if (voto >= 1 && voto <= Pessoas.Count)
                         {
                             Pessoas[voto - 1].votos_candidatos++;
@@ -349,6 +355,7 @@ namespace Sistema_de_votos_meior
         {
             Console.Clear();
             string nome;
+            Console.ForegroundColor = ErrorColor;
             Console.WriteLine("|----------DELETAR----------|");
             foreach (Candidatos mostrar in Pessoas)
             {
@@ -359,6 +366,7 @@ namespace Sistema_de_votos_meior
 
 
             }
+            Console.ForegroundColor = DefaultColor;
             Console.Write("Digite o nome do candidato que deseja deletar:");
            
             nome = Console.ReadLine().Trim();
@@ -369,13 +377,13 @@ namespace Sistema_de_votos_meior
             {
 
                 Pessoas.Remove(deletar);
-                Console.ForegroundColor= ConsoleColor.Blue;
+                Console.ForegroundColor= ConsoleColor.Green;
                 Console.WriteLine($"O candidato {deletar.nome_candidato} foi deletado!");
 
             }
             else
             {
-                Console.ForegroundColor = ConsoleColor.Red;
+                Console.ForegroundColor = ConsoleColor.Blue;
                 Console.WriteLine($"Candidato *{nome}* não foi encontrado");
             }
 
@@ -427,4 +435,5 @@ namespace Sistema_de_votos_meior
         }
     }
 }
+
 
