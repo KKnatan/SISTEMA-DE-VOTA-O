@@ -36,5 +36,18 @@ Para adicionar um candidato, basta digitar *2* que o usuário será legvado para
 
 ![image](https://github.com/user-attachments/assets/7d938500-255a-45a4-a344-64beb570df06)
 
-Para o cadastro, o usuário deverá digitar o nome do candidato e a idade, como mostra acima. Após cadastrar, irá aparecer uma mensagem confirmando o cadastro e perguntando se o usuário deseja ou não adicionar mais candidatos, repetindo o processo até o programa receber um "n" como resposta
+Para o cadastro, o usuário deverá digitar o nome do candidato e a idade, como mostra acima. Após cadastrar, irá aparecer uma mensagem confirmando o cadastro e perguntando se o usuário deseja ou não adicionar mais candidatos, repetindo o processo até o programa receber um "n" como resposta. Recebendo um "n" como resposta, o programa exige que usuário volte para o menu apertando qualquer tecla.
+
+
+# ATUALIZAR 
+
+Para atualizar um candidato, basta digitar *3* que o usuário será levado para uma parte separada, mostrando cada candidato registrado com *Nome* e a *idade*
+
+![image](https://github.com/user-attachments/assets/de147510-7e69-4170-9267-cd896314a87b)
+
+
+
+para fazer a atualização dos dados, basta digitar o nome do candidato que deseje atualizar. Quando digitar o nome do candidato, o programa mostrará separado apenas o candidato escolhido, pedindo um novo nome e uma idade nova (caso queira atualizar apenas um campo, basta repetir os dados de "nome" ou "idade"
+
+ ![image](https://github.com/user-attachments/assets/8cc54f5f-20ba-44da-b37f-06caa4b0e371)
 
