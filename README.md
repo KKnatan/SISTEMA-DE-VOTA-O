@@ -61,3 +61,28 @@ Para remover ou deletar um candidato, basta digitar 4 no *MENU* que o usuário s
 
 Para realizar a remocão de algum candidato, basta digitar o nome do candidato que deseja remover. Após digitar o nome corretamente, o programa mostrará uma mensagem *VERDE* confirmando a remoção .
 ![image](https://github.com/user-attachments/assets/e4e3987c-0290-45cc-8cd3-c3588edf116f)
+
+
+# VISUALIZAR
+
+Para visualizar os candidatos registrados, bastar digita *5* no *MENU*, que o usuário será levado para uma parte separada mostrando os candidatos registrados
+
+  ![image](https://github.com/user-attachments/assets/f03cc4b6-ee9e-4b64-86dc-45d99d78ee7c)
+
+
+
+
+# Sair
+Caso o usuário deseja sair do programa, basta digitar *6*, que o programa irá ser encerrado....
+
+# CONDIÇÕES
+>>Eleições: para fazer uma eleição, deverá ter no minímo 2 candidatos registrados, menos que isso ocorrerá um erro.
+
+>>Adicionar: a idade do candidato deverá ser maior ou igual a 35, caso seja menor, o programa irá mostrar um erro e a idade poderá ser repetida ate ser igual ou maior que 35.
+
+>>Atualizar: Caso o usuário digite o nome de um candidato que não está registrado, o programa irá mostrar um erro e o usuário deverá voltar para o menu.
+
+>>Remover: Caso o usuário digite o nome de um candidato que não está registrado, o programa irá mostrar um erro e o usuário deverá voltar para o menu.
+
+>>Visualizar: após entrar em *visualizar*, o usuário apenas conseguirá voltar ao menu caso aperte alguma tecla.
+
