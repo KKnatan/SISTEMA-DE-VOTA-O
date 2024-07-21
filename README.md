@@ -16,5 +16,8 @@ caso queria votar no segundo candidato digite "2".....etc. Após votar, irá apa
 
 ![image](https://github.com/user-attachments/assets/0ee8f3bd-c391-486e-8406-032f3090c60e)
 
-Após digitar >*0*<, o programa irá exibir o quantitativo de votos em cada candidato e o total dos votos, como mostra a figuria acima
-obs: *nessa parte, após ler todos os dados, o programa espera que o usuário aperte alguma tecla para continuar*
+Após digitar >*0*<, o programa irá exibir o quantitativo de votos em cada candidato e o total dos votos, como mostra a figuria acima.
+  (obs: *nessa parte, após ler todos os dados, o programa espera que o usuário aperte alguma tecla para continuar*)
+
+
+
