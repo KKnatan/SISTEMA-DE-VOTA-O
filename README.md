@@ -17,9 +17,14 @@ caso queria votar no segundo candidato digite "2".....etc. Após votar, irá apa
 ![image](https://github.com/user-attachments/assets/0ee8f3bd-c391-486e-8406-032f3090c60e)
 
 Após digitar >*0*<, o programa irá exibir o quantitativo de votos em cada candidato e o total dos votos, como mostra a figuria acima.
-  (obs: *nessa parte, após ler todos os dados, o programa espera que o usuário aperte alguma tecla para continuar*)
+        (obs: *nessa parte, após ler todos os dados, o programa espera que o usuário aperte alguma tecla para continuar*)
 
 
 
 
 
+![image](https://github.com/user-attachments/assets/293ca028-f606-4f77-ab7a-e7d8b8f8a1b3)
+
+
+
+Ao final do programa, será exibido os resultados. Logo que apertar qualquer tecla, o programa irá voltar para o *MENU* e todos os candidatos registrados anteriormente serão apagados, sendo necessario cadastrar novamente para realizar outra eleição.
