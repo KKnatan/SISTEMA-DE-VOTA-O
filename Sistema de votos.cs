@@ -141,7 +141,7 @@ namespace Sistema_de_votos_meior
                 Resultados(total,voto);
 
 
-
+                Pessoas.Clear()
                 Console.ReadKey();
                 Menu();
 
