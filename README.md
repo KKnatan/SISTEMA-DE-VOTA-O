@@ -5,3 +5,6 @@
 O programa apresenta um *MENU* de opções para seu funcionamento
 ![image](https://github.com/user-attachments/assets/4b720141-27e7-4b92-adbc-6c26775b87ae)
  
+
+
+#ELEIÇÕES
