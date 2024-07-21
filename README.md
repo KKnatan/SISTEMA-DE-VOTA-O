@@ -2,7 +2,7 @@
  Esse projeto consiste em um sistema de votos baseado na criação de candidatos para uma "Eleição". Ultilizando da logica de  *C-R-U-D* para a criação dos candidatos (com nome e idade), sem a necessidade de programas externos
  ou bancos de dados a parte da linguagem, nesse caso, foi usado a função de *LISTAS* da própria linguagem para armazenar as informações.
 
-O programa apresenta um *MENU* de opções para seu funcionamento
+O programa apresenta um *MENU* de opções para seu funcionamento.
 ![image](https://github.com/user-attachments/assets/4b720141-27e7-4b92-adbc-6c26775b87ae)
  
 
@@ -32,7 +32,7 @@ Ao final do programa, será exibido os resultados. Logo que apertar qualquer tec
 
 
 # ADICIONAR
-Para adicionar um candidato, basta digitar *2* que o usuário será legvado para o cadastro do candidato
+Para adicionar um candidato, basta digitar *2* no *MENU* que o usuário será legvado para o cadastro do candidato.
 
 ![image](https://github.com/user-attachments/assets/7d938500-255a-45a4-a344-64beb570df06)
 
@@ -41,13 +41,23 @@ Para o cadastro, o usuário deverá digitar o nome do candidato e a idade, como 
 
 # ATUALIZAR 
 
-Para atualizar um candidato, basta digitar *3* que o usuário será levado para uma parte separada, mostrando cada candidato registrado com *Nome* e a *idade*
+Para atualizar um candidato, basta digitar *3* no *MENU* que o usuário será levado para uma parte separada, mostrando cada candidato registrado com *Nome* e a *idade*.
 
 ![image](https://github.com/user-attachments/assets/de147510-7e69-4170-9267-cd896314a87b)
 
 
 
-para fazer a atualização dos dados, basta digitar o nome do candidato que deseje atualizar. Quando digitar o nome do candidato, o programa mostrará separado apenas o candidato escolhido, pedindo um novo nome e uma idade nova (caso queira atualizar apenas um campo, basta repetir os dados de "nome" ou "idade"
+para fazer a atualização dos dados, basta digitar o nome do candidato que deseje atualizar. Quando digitar o nome do candidato, o programa mostrará separado apenas o candidato escolhido, pedindo um novo nome e uma idade nova (caso queira atualizar apenas um campo, basta repetir os dados de "nome" ou "idade".
 
  ![image](https://github.com/user-attachments/assets/8cc54f5f-20ba-44da-b37f-06caa4b0e371)
 
+
+# DELETAR
+
+Para remover ou deletar um candidato, basta digitar 4 no *MENU* que o usuário será levado para uma parte separada com os candidatos registrados.
+
+ ![image](https://github.com/user-attachments/assets/0ed2e474-65d2-44f3-b38c-d5a682c20101)
+
+
+Para realizar a remocão de algum candidato, basta digitar o nome do candidato que deseja remover. Após digitar o nome corretamente, o programa mostrará uma mensagem *VERDE* confirmando a remoção .
+![image](https://github.com/user-attachments/assets/e4e3987c-0290-45cc-8cd3-c3588edf116f)
