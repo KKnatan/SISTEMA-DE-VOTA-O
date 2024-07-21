@@ -7,4 +7,4 @@ O programa apresenta um *MENU* de opções para seu funcionamento
  
 
 
-#ELEIÇÕES
+# ELEIÇÕES
