@@ -52,7 +52,7 @@ para fazer a atualização dos dados, basta digitar o nome do candidato que dese
  ![image](https://github.com/user-attachments/assets/8cc54f5f-20ba-44da-b37f-06caa4b0e371)
 
 
-# DELETAR
+# Remover
 
 Para remover ou deletar um candidato, basta digitar 4 no *MENU* que o usuário será levado para uma parte separada com os candidatos registrados.
 
