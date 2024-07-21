@@ -1,11 +1,13 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading;
-
+using System.Threading.Tasks;
 
 namespace Sistema_de_votos_meior
 {
+
     internal class Program
     {
 
@@ -65,6 +67,7 @@ namespace Sistema_de_votos_meior
 
                     Console.WriteLine("Obrigador por usar o programa....");
                     Thread.Sleep(1000);
+                    System.Environment.Exit(0);
                     break;
                 default:
                     Console.WriteLine("Essa opção não existe.....voltando");
@@ -96,17 +99,20 @@ namespace Sistema_de_votos_meior
 
                 Console.Clear();
                 Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.WriteLine("---------CANDIDATOS---------");
-
+                Console.WriteLine("|---------CANDIDATOS---------|");
+                
                 int voto;
                 int total = 0;
 
+
+                
                 for (int i = 0; i < Pessoas.Count; i++)
                 {
                     Thread.Sleep(1000);
                     Console.WriteLine($"{i + 1} - {Pessoas[i].nome_candidato} ");
 
                 }
+                
                 while (true)
                 {
 
@@ -114,6 +120,7 @@ namespace Sistema_de_votos_meior
 
                     if (int.TryParse(Console.ReadLine(), out voto))
                     {
+                        
 
 
                         if (voto == 0)
@@ -124,6 +131,8 @@ namespace Sistema_de_votos_meior
                         {
                             Pessoas[voto - 1].votos_candidatos++;
                             total++;
+                            Console.WriteLine("Voto registrado!");
+                            Thread.Sleep(1000);
                         }
 
                     }
@@ -141,11 +150,13 @@ namespace Sistema_de_votos_meior
                 Resultados(total,voto);
 
 
-                Pessoas.Clear()
+                Pessoas.Clear();
                 Console.ReadKey();
                 Menu();
 
             }
+
+
 
 
         }
@@ -153,7 +164,7 @@ namespace Sistema_de_votos_meior
         {
             var  ordem = Pessoas.OrderByDescending(c => c.votos_candidatos).ToList();
             Console.Clear();
-            Console.WriteLine("--------QUANTITATIVO DE VOTOS--------");
+            Console.WriteLine("--------QUANTITATIVO DE VOTOS--------|");
             for (int i = 0; i < Pessoas.Count; i++)
             {
                 Thread.Sleep(1000);
@@ -161,11 +172,11 @@ namespace Sistema_de_votos_meior
 
             }
             Console.WriteLine("-------------------------------------");
-            Console.WriteLine($"Total de votos {total}");
+            Console.WriteLine($"Total de votos: {total}");
             Console.ReadKey();
 
             Console.Clear();
-            Console.WriteLine("---------RESULTADOS---------");
+            Console.WriteLine("|---------RESULTADOS---------|");
 
             Thread.Sleep(1000);
             
@@ -213,7 +224,7 @@ namespace Sistema_de_votos_meior
                         else
                         {
                             Console.ForegroundColor = ErrorColor;
-                            Console.WriteLine("ERRO:Idade minima não alcançada, o participante deverá ter no minimo 35 anos.");
+                            Console.WriteLine("ERRO:Idade miníma não alcançada, o participante deverá ter no minímo 35 anos.");
                             Console.ForegroundColor = SuccessColor;
 
                             
@@ -269,6 +280,9 @@ namespace Sistema_de_votos_meior
                   }
 
 
+
+                
+
             }
 
         }
@@ -276,7 +290,7 @@ namespace Sistema_de_votos_meior
         {
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("----------ATUALIZAR----------");
+            Console.WriteLine("|----------ATUALIZAR----------|");
 
             string Novonome;
             int Novaidade;
@@ -289,14 +303,14 @@ namespace Sistema_de_votos_meior
                 Console.WriteLine("--------");
             }
 
-            Console.Write("Digite o nome do candidato que queira atualizar:");
-            nome = Console.ReadLine();
+            Console.Write("Digite o nome do candidato que deseja atualizar:");
+            nome = Console.ReadLine().Trim();
 
             Candidatos atualizar = Pessoas.Find(c => c.nome_candidato == nome);
             if (atualizar != null)
             {
                 Console.Clear();
-                Console.WriteLine("----------ATUALIZAR----------");
+                Console.WriteLine("|----------ATUALIZAR----------|");
                 Console.WriteLine($"Nome: {atualizar.nome_candidato}|");
                 Console.WriteLine($"Idade: {atualizar.idade_candidato}|");
                 Console.WriteLine("--------");
@@ -335,7 +349,7 @@ namespace Sistema_de_votos_meior
         {
             Console.Clear();
             string nome;
-            Console.WriteLine("----------DELETAR----------");
+            Console.WriteLine("|----------DELETAR----------|");
             foreach (Candidatos mostrar in Pessoas)
             {
                 Console.WriteLine($"Nome: {mostrar.nome_candidato}|");
@@ -345,7 +359,7 @@ namespace Sistema_de_votos_meior
 
 
             }
-            Console.Write("Digite o nome do candidato que queira deletar:");
+            Console.Write("Digite o nome do candidato que deseja deletar:");
            
             nome = Console.ReadLine().Trim();
 
@@ -413,3 +427,4 @@ namespace Sistema_de_votos_meior
         }
     }
 }
+
