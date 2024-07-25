@@ -13,6 +13,8 @@ O programa apresenta um *MENU* de opções para seu funcionamento.
 
 # ELEIÇÕES
 >>RECOMENDO COMEÇAR PELA FUNÇÃO DE *ADICIONAR* PARA A MELHR COMPREENSÃO DO PROJETO
+
+
 Após feito o cadastro dos candidatos, o usuário pode partir para as eleições.
 ![image](https://github.com/user-attachments/assets/a7630657-2684-49b1-b33d-8add44396788)
 O nome de cada candidato irá aparecer em ordem númerica, como mostra a imagem acima. Para votar, o usuário deverá digitar o índice de cada candidato, ou seja, caso deseje votar no primeiro candidato digite "1"
