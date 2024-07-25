@@ -1,3 +1,7 @@
+
+ 
+ 
+ 
  # DETALHAMENTO DO PROJETO
  Esse projeto consiste em um sistema de votos baseado na criação de candidatos para uma "Eleição". Ultilizando da logica de  *C-R-U-D* para a criação dos candidatos (com nome e idade), sem a necessidade de programas externos
  ou bancos de dados a parte da linguagem, nesse caso, foi usado a função de *LISTAS* da própria linguagem para armazenar as informações.
@@ -8,6 +12,7 @@ O programa apresenta um *MENU* de opções para seu funcionamento.
 
 
 # ELEIÇÕES
+>>RECOMENDO COMEÇAR PELA FUNÇÃO DE *ADICIONAR* PARA A MELHR COMPREENSÃO DO PROJETO
 Após feito o cadastro dos candidatos, o usuário pode partir para as eleições.
 ![image](https://github.com/user-attachments/assets/a7630657-2684-49b1-b33d-8add44396788)
 O nome de cada candidato irá aparecer em ordem númerica, como mostra a imagem acima. Para votar, o usuário deverá digitar o índice de cada candidato, ou seja, caso deseje votar no primeiro candidato digite "1"
