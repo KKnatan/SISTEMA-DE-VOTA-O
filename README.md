@@ -12,7 +12,7 @@ O programa apresenta um *MENU* de opções para seu funcionamento.
 
 
 # ELEIÇÕES
->>RECOMENDO COMEÇAR PELA FUNÇÃO DE *ADICIONAR* PARA A MELHR COMPREENSÃO DO PROJETO
+>>RECOMENDO COMEÇAR PELA FUNÇÃO DE *ADICIONAR* PARA A MELHOR COMPREENSÃO DO PROJETO
 
 
 Após feito o cadastro dos candidatos, o usuário pode partir para as eleições.
@@ -39,7 +39,7 @@ Ao final do programa, será exibido os resultados. Logo que apertar qualquer tec
 
 
 # ADICIONAR
-Para adicionar um candidato, basta digitar *2* no *MENU* que o usuário será legvado para o cadastro do candidato.
+Para adicionar um candidato, basta digitar *2* no *MENU* que o usuário será levado para o cadastro do candidato.
 
 ![image](https://github.com/user-attachments/assets/7d938500-255a-45a4-a344-64beb570df06)
 
